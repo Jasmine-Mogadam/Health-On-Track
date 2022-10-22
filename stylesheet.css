@@ -2,14 +2,13 @@
 
 
 body {
-  background-color: rgb(235, 248, 245);
+  background-color: rgb(235, 200, 245);
 }
 
 header {
   color: navy;
   margin-left: 20px;
 }
-
 
 h1 {
   color: navy;
@@ -18,6 +17,47 @@ h1 {
 
 p1 {
   color: navy;
-html{
-  font-size: 11px;
 }
+
+.user-icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  background-color: rgb(135, 248, 245);
+}
+
+.settings {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  background-color: rgb(235, 248, 145);
+}
+
+h2 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  background-color: rgb(235, 248, 145);
+}
+
+/*
+
+<div id="wrapperDiv">
+<div id="div1" style="padding:20px;background-color:#decddd;float:left">Div tag 1</div>
+<div id="div2" style="padding:20px;background-color:#cedddd;float:left">Div tag 2</div>
+</div>
+
+*/
+
+
+/*
+Consolas
+
+h1 {
+      color: blue; font-size: 20px; font-family: verdana; font-style:italic;
+}
+
+*/
