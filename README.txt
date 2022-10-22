@@ -1,1 +1,1 @@
-fill this with more detials later :)
+fill this with more details later :)
