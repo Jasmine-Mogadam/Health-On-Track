@@ -6,29 +6,32 @@ body {
 }
 
 header {
-  color: navy;
+  background-color: rgb(0, 102, 150);
   margin: 20px;
   display: flex;
   justify-content: center;
+  height: 50px;
 }
 
 #title {
-  color: navy;
+  color: rgb(235, 235, 235);
   margin-left: 40px;
   margin-right: 40px;
   font-size: 40px; font-family:monospace; font-style:Consolas;
 }
 
 .user-icon {
-  width: 200px;
-  height: 200px;
+  width: 10px;
+  height: 10px;
   margin: 10px;
+  color: rgb(235, 235, 235);
 }
 
 .settings {
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
   margin: 10px;
+  color: rgb(235, 235, 235);
 }
 
 #page_title {
@@ -71,7 +74,10 @@ img, .box{
   display: flex;
 }
 
-.nav{
-  position: fixed;
-  bottom: 0;
+footer {
+  background-color: navy;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
 }
