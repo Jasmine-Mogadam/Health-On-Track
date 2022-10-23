@@ -120,12 +120,6 @@ svg {
   background-color: #05476e;
 }
 
-.blue-btn{
-  background-color: #00798C !important;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
 @media only screen and (max-width: 700px){
   #button_title {
     display:none;
