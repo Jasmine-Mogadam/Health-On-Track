@@ -7,17 +7,9 @@ body {
 
 header {
   background-color: #003D5B;
-  margin: 20px;
   display: flex;
   justify-content: center;
   height: 50px;
-}
-
-#title {
-  color: #EBEBEB;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 40px; font-family:monospace; font-style:Consolas;
 }
 
 .user-icon {
@@ -59,7 +51,7 @@ body, .cover{
 }
 
 .box {
-  margin: 10px
+  margin: 10px;
   width: 800px;
   height: 400px;
   box-shadow: -1 px 0 10px #000000;
@@ -68,10 +60,104 @@ body, .cover{
   text-align: center;
 }
 
+svg {
+    width: 50px;
+    height: 50px;
+  }
+
+@media screen and (max-width: 700px){
+  #button_title {
+    color: #EBEBEB;
+    display:none;
+  }
+
+  #title {
+    color: #EBEBEB;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px; font-family:monospace; font-style:Consolas;
+  }
+}
+
+@media screen and (min-width: 701px){
+  #button_title {
+    color: #EBEBEB;
+  }
+
+  #title {
+    color: #EBEBEB;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 40px; font-family:monospace; font-style:Consolas;
+  }
+}
+
 img, .box{
   width: 300px;
   height: 200px;
   display: flex;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  font-family:monospace; font-style:Consolas;
+  margin-top: 10%;
+}
+
+.wrapper h2 {
+  font-family:monospace; font-style:Consolas, bold;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background-color: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+}
+
+.team .team_member h3 {
+  color: #81c644; /* edit afterwards */
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.team .team_member .team_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff /*edit afterwards*/
+}
+
+.team .team_member .team_image img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
 }
 
 footer{
