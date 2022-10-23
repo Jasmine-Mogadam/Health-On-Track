@@ -2,19 +2,18 @@
 
 
 body {
-  background-color: rgb(235, 235, 235);
+  background-color: #EBEBEB);
 }
 
 header {
-  background-color: rgb(0, 102, 150);
-  margin: 20px;
+  background-color: #003D5B;
   display: flex;
   justify-content: center;
   height: 50px;
 }
 
 #title {
-  color: rgb(235, 235, 235);
+  color: #EBEBEB;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 40px; font-family:monospace; font-style:Consolas;
@@ -24,18 +23,18 @@ header {
   width: 10px;
   height: 10px;
   margin: 10px;
-  color: rgb(235, 235, 235);
+  color: #EBEBEB;
 }
 
 .settings {
   width: 50px;
   height: 50px;
   margin: 10px;
-  color: rgb(235, 235, 235);
+  color: #EBEBEB;
 }
 
 #page_title {
-  color: navy;
+  color: #003D5B;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 30px; font-family:monospace; font-style:Consolas;
@@ -44,7 +43,7 @@ header {
 }
 
 p1 {
-  color: navy;
+  color: #003D5B;
 }
 
 body, .cover{
@@ -66,6 +65,20 @@ body, .cover{
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+@media screen and (max-width: 600px){
+  svg {
+    width: 50px;
+    height: 50px;
+    }
+}
+
+@media screen and (min-width: 601px){
+  svg {
+      width: 20px;
+      height: 20px;
+    }
 }
 
 img, .box{
@@ -141,5 +154,4 @@ footer {
   margin: 20px;
   display: flex;
   justify-content: center;
-  height: 50px;
 }
