@@ -152,6 +152,7 @@ img, .box{
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  object-fit: cover;
   position: absolute;
   top: -50px;
   left: 50%;
@@ -162,7 +163,9 @@ img, .box{
 .team .team_member .team_image img{
   width: 100px;
   height: 100px;
-  padding: 10px;
+  padding: 8px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 footer{
