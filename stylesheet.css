@@ -74,6 +74,13 @@ p1 {
   margin-top: 30px;
 }
 
+.calendar h2 {
+  font-family:monospace; font-style:Consolas, bold;
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 /*body, .cover{
   align-items: center;
 }
