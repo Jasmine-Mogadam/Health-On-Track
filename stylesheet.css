@@ -98,35 +98,32 @@ body, .cover{
 }
 
 svg {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 
 .button{
   background-color: #00798C;
-  padding: 15px;
+  padding: 20px;
   margin-left: 5px;
   margin-left: 5px;
   border-radius: 5px;
 }
 
-.button, a{
-  color: #EBEBEB;
-}
-
 .big-btn{
-  padding: 20px;
+  padding: 25px;
   bottom: 10px;
 }
 
-.button:hover{
+.button: on hover{
   transition: 1s;
-  background-color: #edae49;;
+  background-color: #05476e;
 }
 
-.button, a:hover {
-    color: white;
-    text-decoration: none;
+.blue-btn{
+  background-color: #00798C !important;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @media only screen and (max-width: 700px){
@@ -146,9 +143,6 @@ svg {
   #button_title {
     color: #EBEBEB;
   }
-  #center_button_title {
-    color: #EBEBEB;
-  }
 
   #title {
     color: #EBEBEB;
@@ -162,6 +156,10 @@ img, .box{
   width: 300px;
   height: 200px;
   display: flex;
+}
+
+.tab-pane {
+  margin: 0px 10px;
 }
 
 .wrapper {
@@ -235,6 +233,10 @@ img, .box{
   padding: 8px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.bloat{
+  padding: 10vh;
 }
 
 footer{
