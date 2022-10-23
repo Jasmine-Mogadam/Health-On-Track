@@ -12,13 +12,6 @@ header {
   height: 50px;
 }
 
-#title {
-  color: #EBEBEB;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 40px; font-family:monospace; font-style:Consolas;
-}
-
 .user-icon {
   width: 10px;
   height: 10px;
@@ -58,7 +51,7 @@ body, .cover{
 }
 
 .box {
-  margin: 10px
+  margin: 10px;
   width: 800px;
   height: 400px;
   box-shadow: -1 px 0 10px #000000;
@@ -75,12 +68,27 @@ svg {
 @media screen and (max-width: 700px){
   #button_title {
     color: #EBEBEB;
+    display:none;
+  }
+
+  #title {
+    color: #EBEBEB;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px; font-family:monospace; font-style:Consolas;
   }
 }
 
 @media screen and (min-width: 701px){
   #button_title {
     color: #EBEBEB;
+  }
+
+  #title {
+    color: #EBEBEB;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 40px; font-family:monospace; font-style:Consolas;
   }
 }
 
@@ -152,9 +160,15 @@ img, .box{
   padding: 10px;
 }
 
-footer {
-  background-color: navy;
-  margin: 20px;
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav {
+  background-color: #003D5B;
   display: flex;
   justify-content: center;
+  height: 50px;
 }
