@@ -1,6 +1,5 @@
 // javascript file
 
-
 var inst = mobiscroll.eventcalendar('#demo-mobile-month-view', {
     theme: 'ios',
     themeVariant: 'light',
