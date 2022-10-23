@@ -65,6 +65,12 @@ svg {
     height: 50px;
   }
 
+.blue-btn{
+  background-color: #00798C !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 @media only screen and (max-width: 700px){
   #button_title {
     display:none;
@@ -119,24 +125,24 @@ img, .box{
 }
 
 .team .team_member {
-  background-color: #fff;
+  background-color: #edae49;
   margin: 5px;
   margin-bottom: 50px;
   width: 300px;
   padding: 20px;
   line-height: 20px;
-  color: #8e8b8b;
+  color: #fff;
   position: relative;
 }
 
 .team .team_member h3 {
-  color: #81c644; /* edit afterwards */
+  color: #003D5B;
   font-size: 26px;
   margin-top: 50px;
 }
 
 .team .team_member p.role {
-  color: #ccc;
+  color: #EBEBEB;
   font-size: 12px;
   text-transform: uppercase;
   margin: 12px 0;
@@ -150,7 +156,7 @@ img, .box{
   top: -50px;
   left: 50%;
   transform: translateX(-50%);
-  background: #fff /*edit afterwards*/
+  background: #edae49 /*edit afterwards*/
 }
 
 .team .team_member .team_image img{
@@ -162,12 +168,13 @@ img, .box{
 footer{
   position: fixed;
   width: 100%;
-  bottom: 0;
+  height:50px;
+  bottom: 10px;
 }
 
 .nav {
   background-color: #003D5B;
   display: flex;
   justify-content: center;
-  height: 50px;
+  height: 60px;
 }
