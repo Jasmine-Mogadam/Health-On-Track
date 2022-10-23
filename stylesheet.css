@@ -153,7 +153,14 @@ img, .box{
 .wrapper h2 {
   font-family:monospace; font-style:Consolas, bold;
   font-size: 52px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.wrapper h6 {
+  font-family:monospace; font-style:Consolas, bold;
+  font-size: 32px;
+  margin-bottom: 70px;
   text-align: center;
 }
 
