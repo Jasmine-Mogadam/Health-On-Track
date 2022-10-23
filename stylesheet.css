@@ -53,6 +53,27 @@ p1 {
   color: #003D5B;
 }
 
+.home_picture img{
+  width: 100%;
+  height: 230px;
+  padding: 0px 30px;
+  object-fit: cover;
+
+  align-items: center;
+}
+.home_text h2 {
+  font-family:monospace; font-style:Consolas, bold;
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.home_text p {
+  font-family:monospace; font-style:Consolas, bold;
+  font-size: 26px;
+  margin-top: 30px;
+}
+
 /*body, .cover{
   align-items: center;
 }
