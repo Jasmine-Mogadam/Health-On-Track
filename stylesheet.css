@@ -7,33 +7,70 @@ body {
 
 header {
   background-color: #003D5B;
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: center;
-  height: 80px;
+  align-items: center;
+  transition: 0.6s;
+  padding: 20px 100px;
+  z-index: 10000;
 }
 
-.user-icon {
+header .sticky{
+  padding: 5px 100px;
+  background: #003D5B;
+}
+
+header #page_title {
+  position: relative;
+  font-size: 2em; font-family:monospace; font-style:Consolas;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+}
+
+header svg {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 10px 40px;
+  color: #EBEBEB;
+  transition: 0.6s;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 19.1vh;
+}
+
+header .sticky #page_title, header .sticky svg{
+  color: #edae49;
+}
+
+/*.user-icon {
   width: 10px;
   height: 10px;
-  margin: 10px;
+  margin: 10px 40px;
   color: #EBEBEB;
 }
 
 .settings {
   width: 50px;
   height: 50px;
-  margin: 10px;
+  margin: 10px 40px;
   color: #EBEBEB;
-}
+}*/
 
-#page_title {
+/*#page_title {
   color: #003D5B;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 30px; font-family:monospace; font-style:Consolas;
   align-items: center;
   justify-content: center;
-}
+}*/
 
 p1 {
   color: #003D5B;
@@ -88,6 +125,9 @@ svg {
   #button_title {
     color: #EBEBEB;
   }
+  #center_button_title {
+    color: #EBEBEB;
+  }
 
   #title {
     color: #EBEBEB;
@@ -106,7 +146,8 @@ img, .box{
 .wrapper {
   box-sizing: border-box;
   font-family:monospace; font-style:Consolas;
-  margin-top: 10%;
+  margin: 5% 0;
+  justify-content: center;
 }
 
 .wrapper h2 {
@@ -171,7 +212,7 @@ img, .box{
 footer{
   position: fixed;
   width: 100%;
-  height:50px;
+  height: 50px;
   bottom: 10px;
 }
 
@@ -180,4 +221,15 @@ footer{
   display: flex;
   justify-content: center;
   height: 60px;
+}
+
+.nav .btn {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav li.presentation a{
+  #symptom{
+
+  }
 }
