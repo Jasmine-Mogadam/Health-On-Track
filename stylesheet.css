@@ -98,13 +98,13 @@ body, .cover{
 }
 
 svg {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
 .button{
   background-color: #00798C;
-  padding: 20px;
+  padding: 15px;
   margin-left: 5px;
   margin-left: 5px;
   border-radius: 5px;
@@ -115,19 +115,18 @@ svg {
 }
 
 .big-btn{
-  padding: 25px;
+  padding: 20px;
   bottom: 10px;
 }
 
-.button: on hover{
+.button:hover{
   transition: 1s;
-  background-color: #05476e;
+  background-color: #edae49;;
 }
 
-.blue-btn{
-  background-color: #00798C !important;
-  padding-left: 5px;
-  padding-right: 5px;
+.button, a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 700px){
