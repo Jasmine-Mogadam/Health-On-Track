@@ -48,40 +48,48 @@
       <!-- Symptom Tracker-->
       <!-- ################################# -->
       <div role="tabpanel" class="tab-pane" id="symptom">
-        <div class="tab-content">
-            <div role="tabpanel" class="tab-pane" id="today">
-              <a
-                class="nav-link active"
-                id="ex1-tab-1"
-                data-mdb-toggle="tab"
-                href="#ex1-tabs-1"
-                role="tab"
-                aria-controls="ex1-tabs-1"
-                aria-selected="true"
-                >Tab 1</a
-              >
+        <ul class="nav nav-tabs mb-3" id="symptoms" role="tablist">
+          <a class="nav-link"
+            id="past"
+            data-mdb-toggle="tab"
+            href="#past"
+            role="tab"
+            aria-controls="ex1-tabs-1"
+            aria-selected="true"
+            >Past Reports</a>
+          <a class="nav-link active"
+            id="today"
+            data-mdb-toggle="tab"
+            href="#today"
+            role="tab"
+            aria-controls="ex1-tabs-1"
+            aria-selected="true"
+          >Today's Symptoms Report</a>
+        </ul>
+        <div class="tab-content" id="symptoms">
+            <div role="tabpanel" class="tab-pane" id="past">
               <h1 id="page_title">Past Reports</h1>
               <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Date Submitted</th>
+                    <th scope="col">Last Edit</th>
+                    <th scope="col">Link to Response</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>11/11/11 11:11</td>
+                    <td>11/11/11 11:15</td>
+                    <td>https://...</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>12/11/11 11:00</td>
+                    <td> N / A</td>
+                    <td>https://...</td>
                   </tr>
                 </tbody>
               </table>

@@ -7,7 +7,6 @@ body {
 
 header {
   background-color: #003D5B;
-  margin: 20px;
   display: flex;
   justify-content: center;
   height: 50px;
@@ -68,6 +67,20 @@ body, .cover{
   text-align: center;
 }
 
+@media screen and (max-width: 600px){
+  svg {
+    width: 50px;
+    height: 50px;
+    }
+}
+
+@media screen and (min-width: 601px){
+  svg {
+      width: 20px;
+      height: 20px;
+    }
+}
+
 img, .box{
   width: 300px;
   height: 200px;
@@ -84,5 +97,4 @@ footer{
   background-color: #003D5B;
   display: flex;
   justify-content: center;
-  height: 50px;
 }
