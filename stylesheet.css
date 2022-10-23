@@ -2,17 +2,19 @@
 
 
 body {
-  background-color: rgb(235, 200, 245);
+  background-color: rgb(235, 235, 235);
 }
 
 header {
   color: navy;
-  margin-left: 20px;
+  margin: 20px;
+  display: block;
 }
 
-h1 {
+#title {
   color: navy;
   margin-left: 20px;
+  font-size: 20px; font-family:monospace; font-style:Consolas;
 }
 
 p1 {
@@ -23,24 +25,12 @@ p1 {
   width: 100px;
   height: 100px;
   margin: 10px;
-  float: left;
-  background-color: rgb(135, 248, 245);
 }
 
 .settings {
   width: 100px;
   height: 100px;
   margin: 10px;
-  float: left;
-  background-color: rgb(235, 248, 145);
-}
-
-h2 {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  float: left;
-  background-color: rgb(235, 248, 145);
 }
 
 .cover {
