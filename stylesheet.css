@@ -9,7 +9,7 @@ header {
   background-color: #003D5B;
   display: flex;
   justify-content: center;
-  height: 50px;
+  height: 80px;
 }
 
 .user-icon {
@@ -67,7 +67,6 @@ svg {
 
 @media screen and (max-width: 700px){
   #button_title {
-    color: #EBEBEB;
     display:none;
   }
 
@@ -123,7 +122,7 @@ img, .box{
   background-color: #fff;
   margin: 5px;
   margin-bottom: 50px;
-  width: 300px
+  width: 300px;
   padding: 20px;
   line-height: 20px;
   color: #8e8b8b;
