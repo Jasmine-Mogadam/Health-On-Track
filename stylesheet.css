@@ -235,6 +235,68 @@ img, .box{
   object-fit: cover;
 }
 
+.wrapper-med {
+  box-sizing: border-box;
+  font-family:monospace; font-style:Consolas;
+  margin: 5% 0;
+  justify-content: center;
+}
+
+.wrapper-med h2 {
+  font-family:monospace; font-style:Consolas, bold;
+  font-size: 52px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.medication {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.medication .medicine {
+  background-color: #edae49;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.medication .medicine h3 {
+  color: #003D5B;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.medication .medicine p.role {
+  color: #EBEBEB;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.medication .medicine .medication_image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: -50px;
+  background: #edae49 /*edit afterwards*/
+}
+
+.medication .medicine .medication_image img{
+  width: 300px;
+  height: 300px;
+  padding: 8px;
+  object-fit: cover;
+}
+
 .bloat{
   padding: 10vh;
 }
