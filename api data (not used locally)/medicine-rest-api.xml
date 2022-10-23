@@ -1,0 +1,17 @@
+<medicines size="2">
+  <link rel="self" href="/medicines"/>
+
+  <medicine id="1">
+    <link rel="self" href="/medicines/1"/>
+    <name>Blue Pill</name>
+    <info>Take one a week after dinner</info>
+    <img>blue-capsules.png</img>
+  </trial>
+
+  <trial id="2">
+    <link rel="self" href="/medicines/2"/>
+    <name>Red Pill</name>
+    <info>Take one a day at 5pm. Don't take with coffee</info>
+    <img>red-capsules.png</img>
+  </trial>
+</trials>

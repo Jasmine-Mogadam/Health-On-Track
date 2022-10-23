@@ -1,0 +1,17 @@
+<user size="2">
+  <link rel="self" href="/users"/>
+
+  <user id="1">
+    <link rel="self" href="/users/1"/>
+    <email>person@gmail.com</email>
+    <name>Johnny Smith</name>
+    <trials>1</trials>
+  </user>
+
+  <user id="2">
+    <link rel="self" href="/users/2"/>
+    <email>someone@yahoo.com</email>
+    <name>Jill Doe</name>
+    <trials>1,2</trials>
+  </user>
+</user>

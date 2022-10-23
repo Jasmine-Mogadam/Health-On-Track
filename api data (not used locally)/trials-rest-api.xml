@@ -1,0 +1,17 @@
+<trials size="2">
+  <link rel="self" href="/trials"/>
+
+  <trial id="1">
+    <link rel="self" href="/trials/1"/>
+    <name>Megacorp Pills</name>
+    <forms>1</forms>
+    <medicines>1</medicines>
+  </trial>
+
+  <trial id="2">
+    <link rel="self" href="/trials/2"/>
+    <name>Cynical Clinical</name>
+    <forms>1</forms>
+    <medicines>1</medicines>
+  </trial>
+</trials>
