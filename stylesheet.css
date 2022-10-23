@@ -8,29 +8,44 @@ body {
 header {
   color: navy;
   margin: 20px;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 #title {
   color: navy;
-  margin-left: 20px;
-  font-size: 20px; font-family:monospace; font-style:Consolas;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 40px; font-family:monospace; font-style:Consolas;
+}
+
+.user-icon {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.settings {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#page_title {
+  color: navy;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 30px; font-family:monospace; font-style:Consolas;
+  align-items: center;
+  justify-content: center;
 }
 
 p1 {
   color: navy;
 }
 
-.user-icon {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-}
-
-.settings {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
+body, .cover{
+  align-items: center;
 }
 
 .cover {
@@ -56,22 +71,7 @@ img, .box{
   display: flex;
 }
 
-
-/*
-
-<div id="wrapperDiv">
-<div id="div1" style="padding:20px;background-color:#decddd;float:left">Div tag 1</div>
-<div id="div2" style="padding:20px;background-color:#cedddd;float:left">Div tag 2</div>
-</div>
-
-*/
-
-
-/*
-Consolas
-
-h1 {
-      color: blue; font-size: 20px; font-family: verdana; font-style:italic;
+.nav{
+  position: fixed;
+  bottom: 0;
 }
-
-*/
