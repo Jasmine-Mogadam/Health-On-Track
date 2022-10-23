@@ -110,6 +110,10 @@ svg {
   border-radius: 5px;
 }
 
+.button, a{
+  color: #EBEBEB;
+}
+
 .big-btn{
   padding: 25px;
   bottom: 10px;
